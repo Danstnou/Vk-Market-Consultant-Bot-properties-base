@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      host: mongo-product
+      port: 27018
+      authentication-database: admin
+      database: product
+      username: admin
+      password: admin

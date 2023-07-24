@@ -1,0 +1,6 @@
+kafka:
+  bootstrap-servers: ""
+  group_id_config: "sample-group"
+  schema-registry-url: "mock://testurl"
+  message-for-product-ms-topic: message-for-product-ms-topic
+  response-for-user-topic: response-for-user-topic

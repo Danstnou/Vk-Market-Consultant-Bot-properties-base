@@ -1,0 +1,33 @@
+command:
+  product:
+    name: /product
+    greetings: "Пришли название товара"
+    success: "Окей!"
+  city:
+    name: /city
+    greetings: "Пришли свой город"
+    success: "Город сохранён"
+    not-correct-city: "Такой город не найден. Пришли заново"
+  from:
+    name: /from
+    greetings: "Пришли минимальную стоимость"
+    success: "Минимальная стоимость установлена"
+    description: "минимальная стоимость"
+    not-correct-amount: "Пожалуйста, пришлите целое число. Например: 5000"
+  to:
+    name: /to
+    greetings: "Пришли максимальную стоимость"
+    success: "Максимальная стоимость установлена"
+    description: "максимальная стоимость"
+    not-correct-amount: "Пожалуйста, пришлите целое число. Например: 5000"
+  search:
+    name: /search
+    greetings: "Для получения товаров, пришлите любое сообщение\n/help для просмотра всех команд\n/next_product"
+    success: ""
+    please-change-msg: "Попробуйте изменить мин. или макс. стоимость, либо сам товар\n\n/product для смены товара\n/from для смены мин. стоимости\n/to для смены макс. стоимости\n/help для просмотра всех команд"
+    end-search: "Поиск закончен :("
+
+vk:
+  url-methods: https://api.vk.com/method
+  version-api: 5.131
+  access-token:

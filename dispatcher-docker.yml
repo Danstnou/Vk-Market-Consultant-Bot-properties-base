@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      host: mongo-dispatcher
+      port: 27017
+      authentication-database: admin
+      database: dispatcher
+      username: admin
+      password: admin

@@ -1,0 +1,6 @@
+kafka:
+  bootstrap-servers: "localhost:9092"
+  group_id_config: "sample-group"
+  schema-registry-url: "http://localhost:8081"
+  message-for-product-ms-topic: message-for-product-ms-topic
+  response-for-user-topic: response-for-user-topic
